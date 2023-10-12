@@ -48,7 +48,9 @@ export default {
 
                 <img :src="card.card_images[0].image_url" alt="Card Image" />
 
-                <p>{{ card.name }}</p>
+                <h4>{{ card.name }}</h4>
+
+                <p>{{ card.archetype }}</p>
 
             </div>
     
@@ -64,25 +66,36 @@ export default {
   display: flex;
   justify-content: center;
   .card-container{
-      width: 80%;
+      width: 90%;
       background-color: white;
       padding: 20px;
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
       .card{
-        width: 20%;
+        width: 15%;
         background-color: #D48F38;
-        border: 1px solid black;
-        margin-bottom: 15px;
+        margin: 0px 25px 15px 25px;
 
         img{
             width: 100%;
         }
 
+        h4{
+            padding: 10px;
+            color: white;
+            text-align: center;
+        }
+
+        p{
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
       }
 
       .ricerca{
-        width: 100%;
+        width: 92%;
         background-color: black;
         color: white;
         padding: 10px;
