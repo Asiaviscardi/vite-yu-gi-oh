@@ -10,6 +10,8 @@ export default {
     <div class="main">
 
         <div class="card-container">
+
+            <div class="ricerca">found</div>
     
             <div class="card">card</div>
             <div class="card">card</div>
@@ -46,6 +48,13 @@ export default {
         border: 1px solid black;
         margin-bottom: 15px;
 
+      }
+
+      .ricerca{
+        width: 100%;
+        background-color: black;
+        color: white;
+        padding: 10px;
       }
     }
 }
