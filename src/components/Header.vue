@@ -7,10 +7,15 @@ export default {
 
 <template>
 
-    <h1>header</h1>
+    <div class="logo-container">logo</div>
   
 </template>
 
-<style>
+<style scoped lang="scss">
+
+.logo-container{
+    width: 100%;
+    background-color: white;
+}
 
 </style>

@@ -14,11 +14,15 @@ export default {
 <template>
 
   <Header/>
-  
+
   <Main/>
   
 </template>
 
-<style>
+<style lang="scss">
+
+body{
+  background-color: #D48F38;
+}
 
 </style>
