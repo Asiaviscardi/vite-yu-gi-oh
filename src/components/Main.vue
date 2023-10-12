@@ -18,7 +18,7 @@ export default {
             try{
                 const response = await axios.get('https://db.ygoprodeck.com/api/v7/cardinfo.php', {
                     params:{
-                        num: 10,
+                        num: 39,
                         offset: 0
                     },
                 });
@@ -42,7 +42,7 @@ export default {
 
         <div class="card-container">
 
-            <div class="ricerca">found</div>
+            <div class="ricerca">found 39 cards</div>
     
             <div class="card" v-for="card in cards" :key="card.id">
 

@@ -7,7 +7,11 @@ export default {
 
 <template>
 
-    <div class="logo-container">Yu-Gi-OH Api</div>
+    <div class="logo-container">
+
+        <h1>Yu-Gi-OH Api</h1>
+
+    </div>
 
     <div class="option-container">
 
@@ -33,6 +37,7 @@ export default {
     width: 100%;
     background-color: white;
     margin-bottom: 20px;
+    padding-left: 20px;
 }
 
 .option-container{
