@@ -16,6 +16,7 @@ export default {
 .logo-container{
     width: 100%;
     background-color: white;
+    margin-bottom: 20px;
 }
 
 </style>
