@@ -7,7 +7,23 @@ export default {
 
 <template>
 
-    <div class="logo-container">logo</div>
+    <div class="logo-container">Yu-Gi-OH Api</div>
+
+    <div class="option-container">
+
+        <select name="" id="">
+
+            <option value="">categoria 1</option>
+
+            <option value="">categoria 2</option>
+
+            <option value="">categoria 3</option>
+
+            <option value="">categoria 4</option>
+
+        </select>
+        
+    </div>
   
 </template>
 
@@ -19,4 +35,17 @@ export default {
     margin-bottom: 20px;
 }
 
+.option-container{
+    margin-left: 10%;
+    margin-bottom: 10px;
+
+}
+
+select{
+    width: 130px;
+    border-radius: 5%;
+    padding: 10px;
+    border: none;
+    
+}
 </style>
